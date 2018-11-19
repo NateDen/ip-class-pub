@@ -1,0 +1,31 @@
+﻿{% extends "region.html" %}
+
+{% block content %}
+
+
+<table class="table">
+    <tr>
+        <th>Country Name</th>
+        <th>Continent</th>
+        <th>Region</th>
+        <th>Capital</th>
+        <th>Surface Area</th>
+        <th>Population</th>
+        <th>Form of Government</th>
+        <th>Head of State</th>
+    </tr>
+    {% for item in rows %}
+    <tr>
+        <td>{{item.name}}</td>
+        <td>{{item.continent}}</td>
+        <td>{{item.region}}</td>
+        <td>{{item.capital}}</td>
+        <td>{{item.surfacearea}}</td>
+        <td>{{item.population}}</td>
+        <td>{{item.governmentform}}</td>
+        <td>{{item.headofstate}}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
