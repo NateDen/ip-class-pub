@@ -1,0 +1,53 @@
+﻿@charset "UTF-8";
+
+.border {
+  border: solid 4px black;
+}
+
+.topmargin {
+	margin-top: 2em;
+}
+
+.bottommargin {
+    margin-bottom: 2em;
+}
+
+.rightmargin {
+	margin-right: 1em;
+}
+
+.rightpadding {
+	padding-right: 1em;
+}
+
+#add_item {
+    background-color: blue;
+}
+
+#save_list {
+    background-color: green;
+}
+
+#remove_purchased {
+    background-color: yellow;
+}
+
+#remove_all {
+    background-color: red;
+}
+
+.strike_through {
+    text-decoration: line-through;
+}
+
+.low {
+    background-color: green;
+}
+
+.medium {
+    background-color: yellow;
+}
+
+.high {
+    background-color: red;
+}
